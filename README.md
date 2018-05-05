@@ -30,12 +30,12 @@ DATABASES = {
 > 以下是各个 App 对应的内容说明：
 ### **demo** 
 - 这是 Django 中`Model(模型)` 用法的示例代码。
-- 详细方法可以阅读 [Django 学习笔记之模型（上）](https://mp.weixin.qq.com/s/Zdd7gT0T7RWee86P2S6IXA)
+- 详细用法可以阅读 [Django 学习笔记之模型（上）](https://mp.weixin.qq.com/s/Zdd7gT0T7RWee86P2S6IXA)
 - 测试地址：因为本 App 主要讲解 model，讲解 Django 如何与数据库打交道。所以没有 url 访问地址。
 
 ### **demo_form**
 - 这是 Django 中`Form(表单)` 用法的示例代码。
-- 详细方法可以阅读 [Django 学习笔记之表单](https://mp.weixin.qq.com/s/JgraaUPnzddOJ0QHzqAUwA)
+- 详细用法可以阅读 [Django 学习笔记之表单](https://mp.weixin.qq.com/s/JgraaUPnzddOJ0QHzqAUwA)
 - 测试体验 Form 用法的本地地址：[http://127.0.0.1:8000/forms/](http://127.0.0.1:8000/forms/)
 - 效果预览
 ![](pics/demo_form1.png)

@@ -10,7 +10,6 @@
 </head>
 
 <br>
-
     <div class="text-center" >
         {% for book in books %}
             <span>书名： {{ book }} <br /></span>
@@ -28,17 +27,11 @@
                 {% endif %}
 
                 <span class="current">
-                    Page {{ books.number }} of {{ books.paginator.num_pages }}
-                </span>
+                    Page {{ books.number }} of {{ books.paginator.num_pages }}</span>
 
                 {% if books.has_next %}
                     <a class='active' href="?page={{ books.next_page_number }}">下一页</a>
                 {% endif %}
-                </li>
-            </ul>
-        </nav>
-    </div>
-
-
+                </li></ul></nav></div>
 </body>
 </html>
