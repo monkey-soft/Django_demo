@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'demo',  # 我们新创建的 app
 
+    'demo',  # 我们新创建的 app
     'demo_form',
+    'demo_paginator',
 ]
 
 MIDDLEWARE = [

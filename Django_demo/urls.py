@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from demo_form import views
+from demo_form.views import form_view
+from demo_paginator.views import paginator_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('forms/', views.formView),
+    path('forms/', form_view, name='forms'),
+    path('paginator/', paginator_view, name='paginator'),
 ]

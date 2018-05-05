@@ -5,7 +5,7 @@ from django.shortcuts import render
 from demo_form.form.forms import AuthorFormOne
 
 
-def formView(request):
+def form_view(request):
     # 过滤 POST 方法的请求
     if request.method == "POST":
         form = AuthorFormOne(request.POST)
@@ -21,5 +21,5 @@ def formView(request):
         # 不是 GET 请求则显示表单
         form = AuthorFormOne()
 
-    templateView = 'author.html'
-    return render(request, templateView, {'form':form})
+    template_view = 'author.html'
+    return render(request, template_view, {'form': form})
