@@ -42,8 +42,23 @@ DATABASES = {
 
 ### **demo_paginator**
 - 这是 Django 中`Paginator(分页功能)` 用法的示例代码。
-- 测试体验 Form 用法的本地地址：[http://127.0.0.1:8000/paginator/](http://127.0.0.1:8000/forms/)
+- 详细用法可以阅读 [Django 实现分页功能](https://mp.weixin.qq.com/s/Nrp7ElZUwb3m2eFqcq3i9Q)
+- 测试体验分页用法的本地地址：[http://127.0.0.1:8000/paginator/](http://127.0.0.1:8000/forms/)
 - 效果预览
 ![](pics/demo_paginator1.png)
 ![](pics/demo_paginator2.png)
 ![](pics/demo_paginator3.png)
+
+### **demo_session**
+- 这是 Django 中`Session(会话的实战运用 => 自动登录)` 用法的示例代码。
+- 详细用法可以阅读 [Django 实战2：利用 Session 实现自动登录机制](https://mp.weixin.qq.com/s/p57ei2cZ_f8EOQIlVblD2g)
+- 测试体验 Session 用法的本地地址：
+    - 登录：[http://127.0.0.1:8000/login/](http://127.0.0.1:8000/login/)
+    - 首页：[http://127.0.0.1:8000/index/](http://127.0.0.1:8000/index/)
+    - 登出：[http://127.0.0.1:8000/logout/](http://127.0.0.1:8000/logout/)
+- 效果预览
+![](pics/demo_session_1.png)
+![](pics/demo_session_2.png)
+![](pics/demo_session_3.png)
+![](pics/demo_session_4.png)
+
